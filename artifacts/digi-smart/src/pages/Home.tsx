@@ -20,7 +20,8 @@ export default function Home() {
             playsInline
             className="w-full h-full object-cover object-center"
           >
-            <source src={`${BASE_URL}videos/hero-bg.mp4`} type="video/mp4" />
+            <source src="https://assets.mixkit.co/videos/35643/35643-720.mp4" type="video/mp4" />
+            <source src="https://assets.mixkit.co/videos/30337/30337-720.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-background/55"></div>
           <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-transparent to-background"></div>
