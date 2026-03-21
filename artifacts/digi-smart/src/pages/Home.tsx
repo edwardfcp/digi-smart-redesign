@@ -11,15 +11,20 @@ export default function Home() {
     <PageTransition className="pb-24">
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center pt-24 overflow-hidden">
-        {/* Background Image & Overlay */}
+        {/* Background Video & Overlay */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src={`${BASE_URL}images/hero-bg.png`} 
-            alt="Futuristic Digital Mesh" 
-            className="w-full h-full object-cover object-center opacity-40 mix-blend-screen"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background"></div>
-          <div className="absolute inset-0 bg-grid-pattern opacity-20"></div>
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full h-full object-cover object-center"
+          >
+            <source src={`${BASE_URL}videos/hero-bg.mp4`} type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-background/55"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-transparent to-background"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-background/70 via-transparent to-transparent"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
