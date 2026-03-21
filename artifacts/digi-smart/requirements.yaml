@@ -1,0 +1,33 @@
+packages:
+  "framer-motion": "For premium scroll animations, page transitions, and interactive hover effects"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to merge tailwind classes without style conflicts"
+  "lucide-react": "For beautiful consistent iconography across the app"
+
+images:
+  - path: "artifacts/digi-smart/public/images/hero-bg.png"
+    description: "Abstract high-tech futuristic digital mesh background in deep navy blue with glowing cyan data streams and subtle bokeh, ultra premium dark corporate style"
+    aspect_ratio: "16:9"
+  - path: "artifacts/digi-smart/public/images/cat-outdoor.png"
+    description: "Massive bright LED advertising billboard on a modern futuristic city skyscraper at night, cyberpunk corporate aesthetic"
+    aspect_ratio: "4:3"
+  - path: "artifacts/digi-smart/public/images/cat-indoor.png"
+    description: "Ultra thin bezel LCD display screen in a luxury high-end retail mall environment, dark premium atmosphere"
+    aspect_ratio: "4:3"
+  - path: "artifacts/digi-smart/public/images/cat-mesh.png"
+    description: "Transparent digital mesh screen showing floating data in a modern corporate glass window setup"
+    aspect_ratio: "4:3"
+  - path: "artifacts/digi-smart/public/images/cat-hologram.png"
+    description: "Futuristic 3D holographic projection of a floating geometric shape on a sleek black pedestal, dark room with cyan rim lighting"
+    aspect_ratio: "4:3"
+  - path: "artifacts/digi-smart/public/images/cat-street.png"
+    description: "Modern smart city street furniture digital kiosk with glowing screen at night, premium tech urban design"
+    aspect_ratio: "4:3"
+  - path: "artifacts/digi-smart/public/images/about-hero.png"
+    description: "Abstract global network earth visualization with glowing nodes and fiber optic lines, dark blue tech background"
+    aspect_ratio: "16:9"
+
+notes:
+  - This is a purely frontend marketing site redesign.
+  - Using mocked data arrays within the components for products and solutions.
+  - Implement a simple local state form for the Contact page to simulate interaction.
