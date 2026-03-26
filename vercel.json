@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pnpm --filter @workspace/digi-smart build",
+  "outputDirectory": "artifacts/digi-smart/dist",
+  "installCommand": "pnpm install --no-frozen-lockfile"
+}
