@@ -15,6 +15,7 @@ import Solutions from "@/pages/Solutions";
 import About from "@/pages/About";
 import Contact from "@/pages/Contact";
 import NotFound from "@/pages/not-found";
+import LegacyPage from "@/pages/LegacyPage";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -36,6 +37,8 @@ function Router() {
             <Route path="/solutions" component={Solutions} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            {/* Fallback: render crawled/legacy pages from digi-smart.com */}
+            <Route path="/:rest*" component={LegacyPage} />
             <Route component={NotFound} />
           </Switch>
         </AnimatePresence>
